@@ -180,7 +180,7 @@ export default function Home() {
 
       onPageLoad();
     }
-  }, []);
+  }, [walletConnected]);
 
   function renderBody() {
     if (!walletConnected) {
